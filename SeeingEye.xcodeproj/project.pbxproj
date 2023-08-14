@@ -16,6 +16,7 @@
 		AC508F512A7AE1BE0096D870 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC508F502A7AE1BE0096D870 /* SettingsView.swift */; };
 		AC508F552A7AEE4C0096D870 /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC508F542A7AEE4C0096D870 /* Predictor.swift */; };
 		AC7296E12A8A707F006CEA2D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7296E02A8A707F006CEA2D /* Settings.swift */; };
+		AC7296E32A8A7648006CEA2D /* UserDefaults+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7296E22A8A7648006CEA2D /* UserDefaults+Helpers.swift */; };
 		AC8666FF2A828DE200E83A20 /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8666FE2A828DE200E83A20 /* SharedData.swift */; };
 		ACD145EB2A80830C007AB2DD /* Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD145EA2A80830C007AB2DD /* Detector.swift */; };
 		ACD145ED2A81442A007AB2DD /* AmpelPilot_2812rg.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = ACD145EC2A81442A007AB2DD /* AmpelPilot_2812rg.mlpackage */; };
@@ -33,6 +34,7 @@
 		AC508F502A7AE1BE0096D870 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		AC508F542A7AEE4C0096D870 /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
 		AC7296E02A8A707F006CEA2D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		AC7296E22A8A7648006CEA2D /* UserDefaults+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Helpers.swift"; sourceTree = "<group>"; };
 		AC8666FE2A828DE200E83A20 /* SharedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
 		ACD145EA2A80830C007AB2DD /* Detector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detector.swift; sourceTree = "<group>"; };
 		ACD145EC2A81442A007AB2DD /* AmpelPilot_2812rg.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = AmpelPilot_2812rg.mlpackage; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				AC8666FE2A828DE200E83A20 /* SharedData.swift */,
 				ACD145EA2A80830C007AB2DD /* Detector.swift */,
 				AC7296E02A8A707F006CEA2D /* Settings.swift */,
+				AC7296E22A8A7648006CEA2D /* UserDefaults+Helpers.swift */,
 				AC508F3B2A79946E0096D870 /* Assets.xcassets */,
 				ACD145EC2A81442A007AB2DD /* AmpelPilot_2812rg.mlpackage */,
 				AC508F472A7994B00096D870 /* CrossBudV3.mlpackage */,
@@ -168,6 +171,7 @@
 				ACD145EB2A80830C007AB2DD /* Detector.swift in Sources */,
 				ACD145ED2A81442A007AB2DD /* AmpelPilot_2812rg.mlpackage in Sources */,
 				AC7296E12A8A707F006CEA2D /* Settings.swift in Sources */,
+				AC7296E32A8A7648006CEA2D /* UserDefaults+Helpers.swift in Sources */,
 				AC508F3A2A79946E0096D870 /* ContentView.swift in Sources */,
 				AC508F482A7994B00096D870 /* CrossBudV3.mlpackage in Sources */,
 				AC508F382A79946E0096D870 /* SeeingEyeApp.swift in Sources */,
