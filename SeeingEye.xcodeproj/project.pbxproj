@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC508F382A79946E0096D870 /* SeeingEyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC508F372A79946E0096D870 /* SeeingEyeApp.swift */; };
+		AC508F3A2A79946E0096D870 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC508F392A79946E0096D870 /* ContentView.swift */; };
+		AC508F3C2A79946E0096D870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC508F3B2A79946E0096D870 /* Assets.xcassets */; };
+		AC508F3F2A79946E0096D870 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC508F3E2A79946E0096D870 /* Preview Assets.xcassets */; };
+		AC508F482A7994B00096D870 /* CrossBudV3.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = AC508F472A7994B00096D870 /* CrossBudV3.mlpackage */; };
+		AC508F4E2A7AD5130096D870 /* HostedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC508F4D2A7AD5130096D870 /* HostedViewController.swift */; };
+		AC508F512A7AE1BE0096D870 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC508F502A7AE1BE0096D870 /* SettingsView.swift */; };
+		AC508F552A7AEE4C0096D870 /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC508F542A7AEE4C0096D870 /* Predictor.swift */; };
+		AC7296E12A8A707F006CEA2D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7296E02A8A707F006CEA2D /* Settings.swift */; };
+		AC8666FF2A828DE200E83A20 /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8666FE2A828DE200E83A20 /* SharedData.swift */; };
+		ACD145EB2A80830C007AB2DD /* Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD145EA2A80830C007AB2DD /* Detector.swift */; };
+		ACD145ED2A81442A007AB2DD /* AmpelPilot_2812rg.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = ACD145EC2A81442A007AB2DD /* AmpelPilot_2812rg.mlpackage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC508F342A79946E0096D870 /* SeeingEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeingEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC508F372A79946E0096D870 /* SeeingEyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeingEyeApp.swift; sourceTree = "<group>"; };
+		AC508F392A79946E0096D870 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC508F3B2A79946E0096D870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC508F3E2A79946E0096D870 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC508F472A7994B00096D870 /* CrossBudV3.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = CrossBudV3.mlpackage; sourceTree = "<group>"; };
+		AC508F4D2A7AD5130096D870 /* HostedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostedViewController.swift; sourceTree = "<group>"; };
+		AC508F4F2A7AE06A0096D870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AC508F502A7AE1BE0096D870 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AC508F542A7AEE4C0096D870 /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
+		AC7296E02A8A707F006CEA2D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		AC8666FE2A828DE200E83A20 /* SharedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
+		ACD145EA2A80830C007AB2DD /* Detector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detector.swift; sourceTree = "<group>"; };
+		ACD145EC2A81442A007AB2DD /* AmpelPilot_2812rg.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = AmpelPilot_2812rg.mlpackage; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC508F312A79946E0096D870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC508F2B2A79946E0096D870 = {
+			isa = PBXGroup;
+			children = (
+				AC508F362A79946E0096D870 /* SeeingEye */,
+				AC508F352A79946E0096D870 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC508F352A79946E0096D870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC508F342A79946E0096D870 /* SeeingEye.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC508F362A79946E0096D870 /* SeeingEye */ = {
+			isa = PBXGroup;
+			children = (
+				AC508F4F2A7AE06A0096D870 /* Info.plist */,
+				AC508F372A79946E0096D870 /* SeeingEyeApp.swift */,
+				AC508F392A79946E0096D870 /* ContentView.swift */,
+				AC508F502A7AE1BE0096D870 /* SettingsView.swift */,
+				AC508F542A7AEE4C0096D870 /* Predictor.swift */,
+				AC508F4D2A7AD5130096D870 /* HostedViewController.swift */,
+				AC8666FE2A828DE200E83A20 /* SharedData.swift */,
+				ACD145EA2A80830C007AB2DD /* Detector.swift */,
+				AC7296E02A8A707F006CEA2D /* Settings.swift */,
+				AC508F3B2A79946E0096D870 /* Assets.xcassets */,
+				ACD145EC2A81442A007AB2DD /* AmpelPilot_2812rg.mlpackage */,
+				AC508F472A7994B00096D870 /* CrossBudV3.mlpackage */,
+				AC508F3D2A79946E0096D870 /* Preview Content */,
+			);
+			path = SeeingEye;
+			sourceTree = "<group>";
+		};
+		AC508F3D2A79946E0096D870 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC508F3E2A79946E0096D870 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC508F332A79946E0096D870 /* SeeingEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC508F422A79946E0096D870 /* Build configuration list for PBXNativeTarget "SeeingEye" */;
+			buildPhases = (
+				AC508F302A79946E0096D870 /* Sources */,
+				AC508F312A79946E0096D870 /* Frameworks */,
+				AC508F322A79946E0096D870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeeingEye;
+			productName = SeeingEye;
+			productReference = AC508F342A79946E0096D870 /* SeeingEye.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC508F2C2A79946E0096D870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AC508F332A79946E0096D870 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = AC508F2F2A79946E0096D870 /* Build configuration list for PBXProject "SeeingEye" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC508F2B2A79946E0096D870;
+			productRefGroup = AC508F352A79946E0096D870 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC508F332A79946E0096D870 /* SeeingEye */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC508F322A79946E0096D870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC508F3F2A79946E0096D870 /* Preview Assets.xcassets in Resources */,
+				AC508F3C2A79946E0096D870 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC508F302A79946E0096D870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8666FF2A828DE200E83A20 /* SharedData.swift in Sources */,
+				AC508F512A7AE1BE0096D870 /* SettingsView.swift in Sources */,
+				ACD145EB2A80830C007AB2DD /* Detector.swift in Sources */,
+				ACD145ED2A81442A007AB2DD /* AmpelPilot_2812rg.mlpackage in Sources */,
+				AC7296E12A8A707F006CEA2D /* Settings.swift in Sources */,
+				AC508F3A2A79946E0096D870 /* ContentView.swift in Sources */,
+				AC508F482A7994B00096D870 /* CrossBudV3.mlpackage in Sources */,
+				AC508F382A79946E0096D870 /* SeeingEyeApp.swift in Sources */,
+				AC508F552A7AEE4C0096D870 /* Predictor.swift in Sources */,
+				AC508F4E2A7AD5130096D870 /* HostedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC508F402A79946E0096D870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC508F412A79946E0096D870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC508F432A79946E0096D870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SeeingEye/Preview Content\"";
+				DEVELOPMENT_TEAM = 8VNWQXUY4G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeeingEye/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Uses camera for capture";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aadishivmalhotra.SeeingEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC508F442A79946E0096D870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SeeingEye/Preview Content\"";
+				DEVELOPMENT_TEAM = 8VNWQXUY4G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeeingEye/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Uses camera for capture";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aadishivmalhotra.SeeingEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC508F2F2A79946E0096D870 /* Build configuration list for PBXProject "SeeingEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC508F402A79946E0096D870 /* Debug */,
+				AC508F412A79946E0096D870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC508F422A79946E0096D870 /* Build configuration list for PBXNativeTarget "SeeingEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC508F432A79946E0096D870 /* Debug */,
+				AC508F442A79946E0096D870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC508F2C2A79946E0096D870 /* Project object */;
+}
