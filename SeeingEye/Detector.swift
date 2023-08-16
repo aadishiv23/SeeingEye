@@ -61,7 +61,9 @@ extension ViewController {
             print(observation.confidence)
             print(results.debugDescription)
             print(objectObservation.labels)
-            detectionLayer.addSublayer(boxLayer)
+            DispatchQueue.main.async {
+                self.detectionLayer.addSublayer(boxLayer)
+            }
 
            
         }
